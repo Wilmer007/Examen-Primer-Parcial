@@ -26,6 +26,7 @@ public class SistemaDeAtencionAlClienteApplicationModule : AbpModule
         Configure<AbpAutoMapperOptions>(options =>
         {
             options.AddMaps<SistemaDeAtencionAlClienteApplicationModule>();
+            
         });
     }
 }

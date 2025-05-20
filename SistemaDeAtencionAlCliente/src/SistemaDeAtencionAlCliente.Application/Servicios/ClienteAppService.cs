@@ -13,8 +13,7 @@ ClienteDto,
 Guid, 
 PagedAndSortedResultRequestDto, 
 CrearActualizarClienteDto,
-CrearActualizarClienteDto>,
-IClienteAppService
+CrearActualizarClienteDto>
 {
     public ClienteAppService(IRepository<Cliente, Guid> repository) : base(repository)
     {
