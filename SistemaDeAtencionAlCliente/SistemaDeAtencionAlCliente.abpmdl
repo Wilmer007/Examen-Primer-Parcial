@@ -1,0 +1,101 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "4.1.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account": {
+      "version": "9.1.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "9.1.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "9.1.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "9.1.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.1.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.1.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.1.1",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "SistemaDeAtencionAlCliente.Application": {
+      "path": "src/SistemaDeAtencionAlCliente.Application/SistemaDeAtencionAlCliente.Application.abppkg",
+      "folder": "src"
+    },
+    "SistemaDeAtencionAlCliente.Application.Tests": {
+      "path": "test/SistemaDeAtencionAlCliente.Application.Tests/SistemaDeAtencionAlCliente.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "SistemaDeAtencionAlCliente.Domain.Shared": {
+      "path": "src/SistemaDeAtencionAlCliente.Domain.Shared/SistemaDeAtencionAlCliente.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "SistemaDeAtencionAlCliente.Application.Contracts": {
+      "path": "src/SistemaDeAtencionAlCliente.Application.Contracts/SistemaDeAtencionAlCliente.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "SistemaDeAtencionAlCliente.HttpApi": {
+      "path": "src/SistemaDeAtencionAlCliente.HttpApi/SistemaDeAtencionAlCliente.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "SistemaDeAtencionAlCliente.HttpApi.Client": {
+      "path": "src/SistemaDeAtencionAlCliente.HttpApi.Client/SistemaDeAtencionAlCliente.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "SistemaDeAtencionAlCliente.EntityFrameworkCore.Tests": {
+      "path": "test/SistemaDeAtencionAlCliente.EntityFrameworkCore.Tests/SistemaDeAtencionAlCliente.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "SistemaDeAtencionAlCliente.EntityFrameworkCore": {
+      "path": "src/SistemaDeAtencionAlCliente.EntityFrameworkCore/SistemaDeAtencionAlCliente.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "SistemaDeAtencionAlCliente.TestBase": {
+      "path": "test/SistemaDeAtencionAlCliente.TestBase/SistemaDeAtencionAlCliente.TestBase.abppkg",
+      "folder": "test"
+    },
+    "SistemaDeAtencionAlCliente.Domain.Tests": {
+      "path": "test/SistemaDeAtencionAlCliente.Domain.Tests/SistemaDeAtencionAlCliente.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "SistemaDeAtencionAlCliente.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/SistemaDeAtencionAlCliente.HttpApi.Client.ConsoleTestApp/SistemaDeAtencionAlCliente.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "SistemaDeAtencionAlCliente.DbMigrator": {
+      "path": "src/SistemaDeAtencionAlCliente.DbMigrator/SistemaDeAtencionAlCliente.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "SistemaDeAtencionAlCliente.HttpApi.Host": {
+      "path": "src/SistemaDeAtencionAlCliente.HttpApi.Host/SistemaDeAtencionAlCliente.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "SistemaDeAtencionAlCliente.Domain": {
+      "path": "src/SistemaDeAtencionAlCliente.Domain/SistemaDeAtencionAlCliente.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
