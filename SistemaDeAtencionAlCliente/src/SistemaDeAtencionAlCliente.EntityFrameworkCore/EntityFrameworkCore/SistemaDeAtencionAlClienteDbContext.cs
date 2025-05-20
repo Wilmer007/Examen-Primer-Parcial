@@ -1,6 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using Volo.Abp.AuditLogging.EntityFrameworkCore;
 using SistemaDeAtencionAlCliente.Books;
+using SistemaDeAtencionAlCliente.Entities;
+using Volo.Abp.AuditLogging;
 using Volo.Abp.BackgroundJobs.EntityFrameworkCore;
 using Volo.Abp.BlobStoring.Database.EntityFrameworkCore;
 using Volo.Abp.Data;
@@ -27,6 +29,10 @@ public class SistemaDeAtencionAlClienteDbContext :
     IIdentityDbContext
 {
     /* Add DbSet properties for your Aggregate Roots / Entities here. */
+    
+    public DbSet<Cliente> Clientes { get; set; }
+    public DbSet<Caso> Casos { get; set; }
+    public DbSet<Comentario> Comentarios { get; set; }
 
     public DbSet<Book> Books { get; set; }
 

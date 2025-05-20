@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SistemaDeAtencionAlCliente.Domain.Shared\SistemaDeAtencionAlCliente.Domain.Shared.csproj" />
+    <ProjectReference Include="..\SistemaDeAtencionAlCliente.Domain\SistemaDeAtencionAlCliente.Domain.csproj" />
   </ItemGroup>
   
   <ItemGroup>

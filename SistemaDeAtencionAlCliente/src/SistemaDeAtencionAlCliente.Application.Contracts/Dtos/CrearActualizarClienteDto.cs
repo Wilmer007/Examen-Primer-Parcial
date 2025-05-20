@@ -1,8 +1,11 @@
+using System;
+using SistemaDeAtencionAlCliente.Entities;
+
 namespace SistemaDeAtencionAlCliente.Dtos;
 
 public class CrearActualizarClienteDto
 {
-    public string Nombre { get; set; }
-    public string Correo { get; set; }
-    public string Telefono { get; set; }
+    public Guid ClIenteId { get; set; }
+    public string Descripcion { get; set; }
+    public CasoTipo Tipo { get; set; }
 }
